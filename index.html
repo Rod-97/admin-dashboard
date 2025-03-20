@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <navbar>
-      <div>
+    <navbar class="sidebar">
+      <div id="dashboard-element">
         <img src="icons/view-dashboard.svg" />
         <h1>Dashboard</h1>
       </div>
-      <ul>
+      <ul class="sidebar-list">
         <li>
           <img src="icons/home-outline.svg" />
           <a href="#">Home</a>
@@ -44,7 +44,7 @@
         </li>
       </ul>
 
-      <ul>
+      <ul class="sidebar-list">
         <li>
           <img src="icons/cog.svg" />
           <a href="#">Settings</a>
@@ -62,27 +62,27 @@
       </ul>
     </navbar>
 
-    <header>
-      <div>
-        <img src="icons/search.svg" />
-        <input type="text" />
-        <img src="icons/bell.svg" />
-        <img src="images/ronaldo.jpeg" />
-        <span>Cristiano Ronaldo</span>
-      </div>
-      <div>
-        <img src="images/ronaldo.jpeg" />
+    <main>
+      <div class="header">
         <div>
-          <span>Hi there,</span>
-          <h2>Cristiano Ronaldo (@cristiano)</h2>
-          <button>New</button>
-          <button>Upload</button>
-          <button>Share</button>
+          <img src="icons/search.svg" />
+          <input type="text" />
+          <img src="icons/bell.svg" />
+          <img src="images/ronaldo.jpeg" />
+          <span>Cristiano Ronaldo</span>
+        </div>
+        <div>
+          <img src="images/ronaldo.jpeg" />
+          <div>
+            <span>Hi there,</span>
+            <h2>Cristiano Ronaldo (@cristiano)</h2>
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
         </div>
       </div>
-    </header>
 
-    <main>
       <section>
         <h3>Your Projects</h3>
         <ul>
