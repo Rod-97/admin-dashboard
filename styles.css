@@ -178,6 +178,13 @@ body {
 
 .main h3 {
   font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.projects-section li,
+.announcements-section ul,
+.trending-section ul {
+  border-radius: 5px;
 }
 
 .projects-section {
@@ -195,10 +202,6 @@ body {
   grid-row: 2 / 2;
 }
 
-.projects-section h3 {
-  margin-bottom: 10px;
-}
-
 .projects-section ul {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
@@ -208,7 +211,7 @@ body {
 
 .projects-section li {
   background-color: white;
-  border-radius: 5px;
+
   border-left: 6px solid orange;
   padding: 20px;
   display: flex;
@@ -227,4 +230,27 @@ body {
 
 .projects-section li .icons-container img {
   cursor: pointer;
+}
+
+.announcements-section ul {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.announcements-section li {
+  padding: 10px 5px;
+}
+
+.announcements-section ul li:nth-child(1),
+.announcements-section ul li:nth-child(2) {
+  border-bottom: 1px solid lightgray;
+}
+
+.announcements-section h5 {
+  font-size: 14px;
+  font-weight: bold;
 }
